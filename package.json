@@ -1,0 +1,20 @@
+{
+  "name": "express-sequelize",
+  "version": "1.0.0",
+  "description": "The code in this repository is based on the following tutorials.",
+  "main": "index.js",
+  "scripts": {
+    "postgres:up": "docker stack deploy -c stack.yml postgres"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.2.3",
+    "sequelize-cli": "^6.1.0"
+  }
+}
