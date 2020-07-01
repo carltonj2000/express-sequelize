@@ -1,0 +1,33 @@
+### This file uses the VSCode extension - REST Client
+
+###
+GET http://localhost:3300/api
+
+###
+GET http://localhost:3300/api/posts
+
+###
+GET http://localhost:3300/api/posts/2
+
+###
+POST http://localhost:3300/api/posts
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "title": "a post",
+  "content": "first non-seed post"
+}
+
+###
+POST http://localhost:3300/api/posts/3
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "title": "a post",
+  "content": "first non-seed post - updated"
+}
+
+###
+DELETE http://localhost:3300/api/posts/5
